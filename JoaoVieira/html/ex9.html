@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <form action="">
+          <fieldset>
+            <legend>Registration</legend>
+            <legend>Personal registration</legend>
+            <label for="fname">Full name:</label>
+            <input
+              type="text"
+              name="pnome"
+              id="fname"
+              placeholder="Insira seu nome"
+              required/>
+            <br/>
+            <label for="day">Data Nascimento</label>
+            <input type="date" name="data" id="day" required /> <br />
+            <label for="sex">Gender:</label>
+            <select name="sexo" id="sexoo" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+        <br><br>
+        
+            <legend>Account Information</legend>
+            <label for="email">Email:</label> <br>
+            <input type="email" name="mail" id="email" required /> <br>
+            <label for="pass">Password:</label>
+            <input type="password" name="passW" id="pass" required />
+            <label for="passC">Confirm Password:</label>
+            <input type="password" name="passW" id="passC" required />
+            <br> <br>
+          
+       
+       
+          
+           <legend>Communication preferences:</legend> 
+            <input type="checkbox" name="comms" id="comms" >
+            <label for="comms">Accept Receive News by Email</label>
+          
+        <br><br>
+        
+          <input type="submit" value="submit" />
+          <input type="reset" value="reset" />
+        </fieldset></form>
+      
+      
+    
+  </body>
+</html>
