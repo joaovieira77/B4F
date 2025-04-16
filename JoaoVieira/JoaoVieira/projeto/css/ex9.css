@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+}
+.wrapper {
+    width: 100%;
+}
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+.product-info{ 
+    margin-top: 8px;
+text-align: center;
+}
+.product-price {
+    font-size: 22px;
+text-align: center;    
+}
+.Slashed {
+    
+    text-decoration: line-through;
+    color: rgb(175, 169, 161);
+    margin: 10px;
+}
