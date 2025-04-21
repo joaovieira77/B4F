@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(183, 183, 183);
+}
+.grid-container{
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "one one "
+    "two three";
+    align-content: center;
+    margin: 20px 20px 20px 20px;
+    padding: 60px;
+}
+.item{
+    padding: 1rem;
+} /* Primeira coluna*/
+.item:nth-child(1){
+    background-color: hsl(0, 0%, 96%);
+    grid-area: one;
+}
+.item:nth-child(1) h2{
+    color: hsl(179, 62%, 43%);
+}.item:nth-child(1) h3{
+    color: hsl(71, 73%, 54%)
+}
+.item:nth-child(1) p{
+    color: hsl(218, 22%, 67%)
+}
+/* Segunda coluna*/
+
+
+.item:nth-child(2){
+    text-align: left;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 62%, 43%);
+    grid-area: two;
+}.item:nth-child(2) h3{
+    color: hsl(204, 43%, 93%);}
+    
+
+.product-price{
+color: white;
+    font-size: 26px;
+}
+.smaller{ color: hsl(204, 43%, 93%);
+    margin: 3px;
+    font-size: 10px;
+}
+button {
+    box-shadow: 2px 2px black;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 900;
+    padding: 10px 10px;
+}
+
+    /* Terceira coluna*/
+.item:nth-child(3){
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 73%, 46%);
+    grid-area: three;
+}.item:nth-child(3) h3{
+    color: hsl(204, 43%, 93%);}
